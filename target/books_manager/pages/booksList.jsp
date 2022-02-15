@@ -16,6 +16,7 @@
     <title>Cloud Books Manager</title>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/general.css" media="screen">    
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/booksList.css" media="screen">    
+    <link rel="icon" href="<%=request.getContextPath()%>/favicon/favicon.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
     <meta name="theme-color" content="#4a5e8b">

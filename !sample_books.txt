@@ -1,0 +1,26 @@
+Arthur Schopenhauer, The World as Will and Representation, 78.99
+Isaac Newton, Mathematical Principles of Natural Philosophy, 54.29
+Carl Sagan, The Cosmic Connection, 43.39
+Alexandre Dumas, The Count of Monte Cristo, 13.99
+Galileo Galilei, Dialogue Concerning the Two Chief World Systems, 350.00
+Nicolaus Copernicus, On the Revolutions of Heavenly Spheres, 150.00
+Lucius Seneca, Moral Letters to Lucilius, 63.29
+James Watson, The Double Helix: A Personal Account of the Discovery of the Structure of DNA, 35.99
+Albert Einstein, Relativity: The Special and General Theory, 39.99
+Wolfgang Goethe, Faust, 67.19
+
+
+
+
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The World as Will and Representation', 'Arthur Schopenhauer', '78.99');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Mathematical Principles of Natural Philosophy', 'Isaac Newton', '54.29');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Cosmic Connection', 'Carl Sagan', '43.39');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Count of Monte Cristo', 'Alexandre Dumas', '13.99');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Dialogue Concerning the Two Chief World Systems', 'Galileo Galilei', '350.00');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('On the Revolutions of Heavenly Spheres', 'Nicolaus Copernicus', '150.00');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Lucius Seneca', 'Moral Letters to Lucilius', '63.29');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('James Watson', 'The Double Helix: A Personal Account of the Discovery of the Structure of DNA', '35.99');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Albert Einstein', 'Relativity: The Special and General Theory', '39.99');
+INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Wolfgang Goethe', 'Faust', '67.19');
+
+

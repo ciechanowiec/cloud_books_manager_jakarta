@@ -12,6 +12,7 @@
     <title>Cloud Books Manager</title>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/general.css" media="screen">    
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/errorPage.css" media="screen">        
+    <link rel="icon" href="<%=request.getContextPath()%>/favicon/favicon.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">    
     <meta name="theme-color" content="#4a5e8b">
@@ -33,8 +34,7 @@
         <a href="https://github.com/ciechanowiec/books_manager" class="u-border-2 u-border-black u-btn u-button-style u-custom-item u-hover-black u-none u-text-black u-text-hover-white u-btn-2" target="_blank">about</a>        
       </div>
     </section>
-    
-    
+        
     <footer class="u-align-center u-clearfix u-footer" id="sec-53d4"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
   </body>
 </html>
