@@ -12,14 +12,14 @@
  * This program is a books manager web-application (https://cloud-books.herokuapp.com/) which allows 
  * to browse and edit stored data. The data is stored in a cloud database at Google Cloud Platform.
  * 
- * | Parameter                               | Data                                                                       |
- * | :-------------------------------------: | :------------------------------------------------------------------------: |
- * | Program name:                           | Cloud Books Manager                                                        |
- * | Date of creation:                       | February 2022                                                              |
- * | Technologies used:                      | Java SE, Java Server Pages, MySQL, Google Cloud Platform, HTML, CSS, Maven |
- * | Time spent to create the program:       | ~2.5 days                                                                  |
- * | Author:                                 | Herman Ciechanowiec, herman@ciechanowiec.eu                                |
- * | License:                                | MIT No Attribution License                                                 |
+ * | Parameter                               | Data                                                                                      |
+ * | :-------------------------------------: | :---------------------------------------------------------------------------------------: |
+ * | Program name:                           | Cloud Books Manager                                                                       |
+ * | Date of creation:                       | February 2022                                                                             |
+ * | Technologies used:                      | Java SE, Java Servlets, Java Server Pages, MySQL, Google Cloud Platform, HTML, CSS, Maven |
+ * | Time spent to create the program:       | ~2.5 days                                                                                 |
+ * | Author:                                 | Herman Ciechanowiec, herman@ciechanowiec.eu                                               |
+ * | License:                                | MIT No Attribution License                                                                |
  * 
  * ## Features
  * The program has the following features:
