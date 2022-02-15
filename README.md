@@ -22,7 +22,7 @@ This program is a books manager [web-application](https://cloud-books.herokuapp.
 ## Features
 The program has the following features:
 - supported actions: list all stored books, add a new book, delete a stored book, edit a stored book
-- in order to cancel possible inappropriate entries made by anonymous users, every three days the program automatically resets the whole database and inputs 10 default entries
+- in order to cancel possible inappropriate entries made by anonymous users, every day the program automatically resets the whole database and inputs 10 default entries
 - data is stored in a remote MySQL database running at Google Cloud Platform
 - handling of prohibited user’s actions and program errors
 
