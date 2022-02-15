@@ -43,7 +43,7 @@ public class Book {
     }
 
     public double getPrice() {
-        /* Round to avoid more than two digits after the dot */
+        /* Round in order to avoid more than two digits after the dot */
         return Math.round(this.price * 100.0) / 100.0;        
     }
 
@@ -55,7 +55,6 @@ public class Book {
     public String toString() {        
         return String.format("id: %d | title: %s | author: %s | price: %.2f",
                              this.id, this.title, this.author, this.price);
-
     }    
     
 }

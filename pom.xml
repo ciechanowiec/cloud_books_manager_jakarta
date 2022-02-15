@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -85,7 +85,7 @@
           <version>3.0.3</version>
           <configuration>
             <appName>books-handler</appName>
-            <jdkVersion>11</jdkVersion>
+            <jdkVersion>17</jdkVersion>
           </configuration>
         </plugin>
       </plugins>

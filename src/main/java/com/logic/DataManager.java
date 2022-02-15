@@ -36,8 +36,7 @@ public class DataManager {
     private void disconnect() throws SQLException {
         if (this.connection != null || !this.connection.isClosed()) {
             this.connection.close();
-        }
-        
+        }        
     }
         
     public List<Book> listAllBooks() throws SQLException {
@@ -132,6 +131,32 @@ public class DataManager {
         disconnect();
 
         return book;
+    }
+
+    public void clearData() throws SQLException {
+        connect();
+        Statement statement = this.connection.createStatement();
+        statement.executeUpdate("DELETE FROM books;");
+        statement.executeUpdate("ALTER TABLE books AUTO_INCREMENT = 1");
+        statement.close();
+        disconnect();
+    }
+
+    public void insertDefaultData() throws SQLException {
+        connect();
+        Statement statement = this.connection.createStatement();
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The World as Will and Representation', 'Arthur Schopenhauer', '78.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Mathematical Principles of Natural Philosophy', 'Isaac Newton', '54.29');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Cosmic Connection', 'Carl Sagan', '43.39');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Count of Monte Cristo', 'Alexandre Dumas', '13.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Dialogue Concerning the Two Chief World Systems', 'Galileo Galilei', '350.00');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('On the Revolutions of Heavenly Spheres', 'Nicolaus Copernicus', '150.00');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Lucius Seneca', 'Moral Letters to Lucilius', '63.29');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('James Watson', 'The Double Helix: A Personal Account of the Discovery of the Structure of DNA', '35.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Albert Einstein', 'Relativity: The Special and General Theory', '39.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Wolfgang Goethe', 'Faust', '67.19');");
+        statement.close();
+        disconnect();
     }
     
 }

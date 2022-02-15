@@ -1,4 +1,5 @@
+com\MainServlet.class
 com\logic\Book.class
 com\logic\DataManager.class
-com\Main.class
-com\Controller.class
+com\resetter\Resetter.class
+com\resetter\ResetTask.class

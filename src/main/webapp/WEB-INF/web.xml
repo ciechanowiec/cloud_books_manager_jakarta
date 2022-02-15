@@ -12,22 +12,27 @@
 
   <context-param>
     <param-name>dbUsername</param-name>
-    <param-value>scott</param-value>
+    <param-value>booksmanager</param-value>
   </context-param>
 
   <context-param>
     <param-name>dbPassword</param-name>
-    <param-value>scott</param-value>
+    <param-value>MiN_672#grost</param-value>
   </context-param>
 
   <servlet>
-    <servlet-name>com.Controller</servlet-name>
-    <servlet-class>com.Controller</servlet-class>
+    <servlet-name>com.MainServlet</servlet-name>
+    <servlet-class>com.MainServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>com.Controller</servlet-name>
+    <servlet-name>com.MainServlet</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/css/*</url-pattern>
   </servlet-mapping>
 
 </web-app>
