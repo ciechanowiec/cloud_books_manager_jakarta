@@ -151,10 +151,10 @@ public class DataManager {
         statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Count of Monte Cristo', 'Alexandre Dumas', '13.99');");
         statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Dialogue Concerning the Two Chief World Systems', 'Galileo Galilei', '350.00');");
         statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('On the Revolutions of Heavenly Spheres', 'Nicolaus Copernicus', '150.00');");
-        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Lucius Seneca', 'Moral Letters to Lucilius', '63.29');");
-        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('James Watson', 'The Double Helix: A Personal Account of the Discovery of the Structure of DNA', '35.99');");
-        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Albert Einstein', 'Relativity: The Special and General Theory', '39.99');");
-        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Wolfgang Goethe', 'Faust', '67.19');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Moral Letters to Lucilius', 'Lucius Seneca', '63.29');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('The Double Helix: A Personal Account of the Discovery of the Structure of DNA', 'James Watson', '35.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Relativity: The Special and General Theory', 'Albert Einstein', '39.99');");
+        statement.executeUpdate("INSERT INTO `bookstore`.`books` (`title`, `author`, `price`) VALUES ('Faust', 'Wolfgang Goethe', '67.19');");
         statement.close();
         disconnect();
     }
