@@ -10,14 +10,14 @@
 
 ## Basic Info
 This program is a books manager [web-application](https://cloud-books.herokuapp.com/) which allows to browse and edit stored data. The data is stored in a cloud database at Google Cloud Platform.
-| Parameter                               | Data                                                                                  |
-| :-------------------------------------: | :-----------------------------------------------------------------------------------: |
-| Program name:                           | Cloud Books Manager                                                                   |
-| Date of creation:                       | February 2022                                                                         |
-| Technologies used:                      | Java SE, Java Server Pages, <br/>MySQL, Google Cloud Platform, <br/>HTML, CSS, Maven  |
-| Time spent to <br/> create the program: | ~2.5 days                                                                             |
-| Author:                                 | Herman Ciechanowiec <br/> herman@ciechanowiec.eu                                      |
-| License:                                | MIT No Attribution License                                                            |
+| Parameter                               | Data                                                                                                    |
+| :-------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| Program name:                           | Cloud Books Manager                                                                                     |
+| Date of creation:                       | February 2022                                                                                           |
+| Technologies used:                      | Java SE, Java Servlets, <br/>Java Server Pages, MySQL,<br/>Google Cloud Platform,<br/>HTML, CSS, Maven  |
+| Time spent to <br/> create the program: | ~2.5 days                                                                                               |
+| Author:                                 | Herman Ciechanowiec <br/> herman@ciechanowiec.eu                                                        |
+| License:                                | MIT No Attribution License                                                                              |
 
 ## Features
 The program has the following features:
