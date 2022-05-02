@@ -9,8 +9,9 @@
  * 5. License
  * 
  * ## Basic Info
- * This program is a books manager web-application (https://cloud-books.herokuapp.com/) which allows 
- * to browse and edit stored data. The data is stored in a cloud database at Google Cloud Platform.
+ * This program is a books manager web-application which allows
+ * to browse and edit stored data. The data is assumed to be stored
+ * in a cloud database at Google Cloud Platform.
  * 
  * | Parameter                               | Data                                                                                      |
  * | :-------------------------------------: | :---------------------------------------------------------------------------------------: |
@@ -30,8 +31,8 @@
  * - handling of prohibited user’s actions and program errors
  * 
  * ## Deployment
- * The program was deployed at https://cloud-books.herokuapp.com/ as a WAR file through Heroku Maven Plugin. 
- * Instructions regarding this way of deployment can be found here:
+ * The program was deployed at Heroku platform (herokuapp.com) as a WAR file through
+ * Heroku Maven Plugin. Instructions regarding this way of deployment can be found here:
  * https://devcenter.heroku.com/articles/deploying-java-applications-with-the-heroku-maven-plugin.
  * 
  * ## Architecture
@@ -57,7 +58,7 @@
  * of contract, tort or otherwise, arising from, out of or in connection with the
  * Software or the use or other dealings in the Software.
  * 
- * */ 
+ */
 
 package com;
 

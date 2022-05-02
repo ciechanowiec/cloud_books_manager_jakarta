@@ -9,7 +9,7 @@
 6. [License](#License)
 
 ## Basic Info
-This program is a books manager web-application which allows to browse and edit stored data. The data is stored in a cloud database at Google Cloud Platform.
+This program is a books manager web-application which allows to browse and edit stored data. The data is assumed to be stored in a cloud database at Google Cloud Platform.
 | Parameter                               | Data                                                                                                    |
 | :-------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
 | Program name:                           | Cloud Books Manager                                                                                     |
