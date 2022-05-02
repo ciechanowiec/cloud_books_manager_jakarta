@@ -27,7 +27,7 @@ The program has the following features:
 - handling of prohibited user’s actions and program errors
 
 ## Deployment
-The program was deployed at https://cloud-books.herokuapp.com/ as a WAR file through Heroku Maven Plugin. Instructions regarding this way of deployment can be found here: https://devcenter.heroku.com/articles/deploying-java-applications-with-the-heroku-maven-plugin.
+The program was deployed at Heroku platform (herokuapp.com) as a WAR file through Heroku Maven Plugin. Instructions regarding this way of deployment can be found here: https://devcenter.heroku.com/articles/deploying-java-applications-with-the-heroku-maven-plugin.
 
 ## Architecture
 The program is divided into three parts: front-end (graphical user interface), back-end (logic of the program) and the controller, which handles a relationship between the front-end and the back-end. The connection with Google Cloud Platform is established at the back-end level:<br/><br/>
